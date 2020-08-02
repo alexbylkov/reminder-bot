@@ -1,0 +1,25 @@
+{
+  "name": "reminder-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "env-cmd -f .env.development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbylkov/reminder-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexbylkov/reminder-bot/issues"
+  },
+  "homepage": "https://github.com/alexbylkov/reminder-bot#readme",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
